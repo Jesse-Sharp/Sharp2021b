@@ -9,3 +9,21 @@
   \bibitem{Rackauckas2017} Rackauckas C, Nie Q. 2017 DifferentialEquations.jl – A Performant and Feature-Rich Ecosystem for Solving Differential Equations in Julia. \textit{The Journal of Open Research Software} \textbf{5}, 1--10. (doi.org/10.5334/jors.151). 
   
   	\bibitem{Revels2016} Revels J, Lubin M, Papamarkou T. 2016 Forward-mode automatic differentiation in Julia. \textit{arXiv [Mathematical Software]}, 1--4. (https://arxiv.org/pdf/1607.07892.pdf). 
+
+##Linear and exponential growth models
+
+##Logistic growth model
+
+##SIR model
+
+##ConfidenceRegions.jl
+
+##EquidistantCircumferencePoints.jl
+
+##InfoGeo2D.jl
+
+##MvNormalModel.jl
+
+##NormalModel.jl
+
+##optimise.jl
