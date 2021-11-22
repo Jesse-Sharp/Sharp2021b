@@ -10,9 +10,10 @@
   
   	\bibitem{Revels2016} Revels J, Lubin M, Papamarkou T. 2016 Forward-mode automatic differentiation in Julia. \textit{arXiv [Mathematical Software]}, 1--4. (https://arxiv.org/pdf/1607.07892.pdf). 
 
-##Linear and exponential growth models
+**Linear and exponential growth models**
+This folder contains code for reproducing the inference and information geometry results for the linear and exponential growth models. 
 
-##Logistic growth model
+-Logistic growth model
 
 ##SIR model
 
