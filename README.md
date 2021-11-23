@@ -35,7 +35,7 @@ _MvNormalModel.jl_
 
 Contains code for reproducing the inference and information geometry results for the linear and exponential growth models, presented in Figures 4 and 6 of the Sharp et al. paper. 
 
-** The user callable functions include: **
+**The user callable functions include:**
 
 _Linear\_Infer\_a\_C0.jl_
 
