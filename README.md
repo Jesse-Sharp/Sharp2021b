@@ -62,7 +62,7 @@ _Exponential\_Infer\_a\_StDev.jl_
 Reproduces inference and information geometry results for the exponential model, estimating unknown parameter _C_(0) and the standard deviation of the data.
 
 
-** The supporting functions and data are: **
+**The supporting functions and data are:**
 
 _DataGenerateLinear.jl_
 
@@ -113,7 +113,7 @@ _ExponentialSolAllParams.jl_
 
 Contains code for reproducing the inference and information geometry results for the logistic growth model, presented in Figures 3, 5, 7 and 8 of the Sharp et al. paper. 
 
-** The user callable functions include: **
+**The user callable functions include:**
 
 _Logistic\_Infer\_r\_C0.jl_
 
@@ -128,7 +128,7 @@ _Logistic\_Infer\_r\_K.jl_
 Reproduces inference and information geometry results for the logistic model, estimating unknown parameters _r_ and _K_.
 
 
-** The supporting functions and data are: **
+**The supporting functions and data are:**
 
 _DataGenerateLogistic.jl_
 
@@ -166,7 +166,7 @@ _Logistic_data.csv_
 #### SIR model ####
 Contains code for reproducing the inference and information geometry results for the susceptible, infected, recovered (SIR) model, presented in Figures 9 and 10 of the Sharp et al. paper. 
 
-** The user callable functions include: **
+**The user callable functions include:**
 
 _SIR\_Infer\_beta\_gamma\_obsIonly.jl_
 
@@ -184,7 +184,7 @@ _SIR\_Infer\_beta\_StDev.jl_
 
 Reproduces inference and information geometry results for the SIR model where all three populations are observed, estimating unknown parameter β and the standard deviation of the data.
 
-** The supporting functions and data are: **
+**The supporting functions and data are:**
 
 _DataGenerateSIR_obsIonly.jl_
 
