@@ -1,19 +1,11 @@
+### Sharp2021b ###
+
 Julia implementation of likelihood based inference and information geometry techniques, including geodesic curves and scalar curvature. This code is used to generate results by Sharp et al. in:
 
 Sharp JA, Browning AP, Mapder T, Baker CM, Burrage K, Simpson MJ. 2021 Parameter estimation and uncertainty quantification using information geometry. _bioRxiv preprint_. (LINK).
 
-Key Julia packages used in this work include DifferentialEquations.jl (Rackauckas, 2017), Distributions.jl (Besancon, 2021), FiniteDifferences.jl, ForwardDiff.jl (Revels, 2016), LinearAlgebra.jl and NLopt.jl with the BOBYQA algorithm (Powell, 2009). 
-
-Besançon M, Papamarkou T, Anthoff D, Arslan A, Byrne S, Lin D, Pearson J. 2021 Distributions.jl: Definition and Modeling of Probability Distributions in the JuliaStats Ecosystem. _Journal of Statistical Software_ **98**, 1--30. (doi.org/10.18637/jss.v098.i16).  
-  
-Powell MJD. 2009 The BOBYQA algorithm for bound constrained optimization without derivatives. Technical report. _Department of Applied Mathematics and Theoretical Physics. Cambridge, England_.
-	  
-Rackauckas C, Nie Q. 2017 DifferentialEquations.jl – A Performant and Feature-Rich Ecosystem for Solving Differential Equations in Julia. _The Journal of Open Research Software_ **5**, 1--10. (doi.org/10.5334/jors.151). 
-  
-Revels J, Lubin M, Papamarkou T. 2016 Forward-mode automatic differentiation in Julia. _arXiv [Mathematical Software]_, 1--4. (https://arxiv.org/pdf/1607.07892.pdf). 
-
 ## This repository contains the following code and folders: ##
-### Sharp2021b ###
+
 
 _ConfidenceRegions.jl_
 
@@ -246,5 +238,15 @@ _MurrayData.csv_
 
 - Contains influenza outbreak data from _Murray JD. 2002 Mathematical Biology I: an Introduction, 3rd ed. Heidelberg: Springer_.  
 
+## Key packages ##
 
+Key Julia packages used in this work include DifferentialEquations.jl (Rackauckas, 2017), Distributions.jl (Besancon, 2021), FiniteDifferences.jl, ForwardDiff.jl (Revels, 2016), LinearAlgebra.jl and NLopt.jl with the BOBYQA algorithm (Powell, 2009). 
+
+Besançon M, Papamarkou T, Anthoff D, Arslan A, Byrne S, Lin D, Pearson J. 2021 Distributions.jl: Definition and Modeling of Probability Distributions in the JuliaStats Ecosystem. _Journal of Statistical Software_ **98**, 1--30. (doi.org/10.18637/jss.v098.i16).  
+  
+Powell MJD. 2009 The BOBYQA algorithm for bound constrained optimization without derivatives. Technical report. _Department of Applied Mathematics and Theoretical Physics. Cambridge, England_.
+	  
+Rackauckas C, Nie Q. 2017 DifferentialEquations.jl – A Performant and Feature-Rich Ecosystem for Solving Differential Equations in Julia. _The Journal of Open Research Software_ **5**, 1--10. (doi.org/10.5334/jors.151). 
+  
+Revels J, Lubin M, Papamarkou T. 2016 Forward-mode automatic differentiation in Julia. _arXiv [Mathematical Software]_, 1--4. (https://arxiv.org/pdf/1607.07892.pdf). 
 
