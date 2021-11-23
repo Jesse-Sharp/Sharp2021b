@@ -39,27 +39,27 @@ Contains code for reproducing the inference and information geometry results for
 
 _Linear\_Infer\_a\_C0.jl_
 
-Reproduces inference and information geometry results for the linear model, estimating unknown parameters _a_ and _C_(0).
+- Reproduces inference and information geometry results for the linear model, estimating unknown parameters _a_ and _C_(0).
 
 _Exponential\_Infer\_a\_C0.jl_
 
-Reproduces inference and information geometry results for the exponential model, estimating unknown parameters _a_ and _C_(0).
+- Reproduces inference and information geometry results for the exponential model, estimating unknown parameters _a_ and _C_(0).
 
 _Linear\_Infer\_a\_StDev.jl_
 
-Reproduces inference and information geometry results for the linear model, estimating unknown parameters _a_ and the standard deviation of the data.
+- Reproduces inference and information geometry results for the linear model, estimating unknown parameters _a_ and the standard deviation of the data.
 
 _Exponential\_Infer\_a\_StDev.jl_
 
-Reproduces inference and information geometry results for the exponential model, estimating unknown parameters _a_ and the standard deviation of the data.
+- Reproduces inference and information geometry results for the exponential model, estimating unknown parameters _a_ and the standard deviation of the data.
 
 _Linear\_Infer\_a\_StDev.jl_
 
-Reproduces inference and information geometry results for the linear model, estimating unknown parameter _C_(0) and the standard deviation of the data.
+- Reproduces inference and information geometry results for the linear model, estimating unknown parameter _C_(0) and the standard deviation of the data.
 
 _Exponential\_Infer\_a\_StDev.jl_
 
-Reproduces inference and information geometry results for the exponential model, estimating unknown parameter _C_(0) and the standard deviation of the data.
+- Reproduces inference and information geometry results for the exponential model, estimating unknown parameter _C_(0) and the standard deviation of the data.
 
 
 **The supporting functions and data are:**
@@ -117,16 +117,15 @@ Contains code for reproducing the inference and information geometry results for
 
 _Logistic\_Infer\_r\_C0.jl_
 
-Reproduces inference and information geometry results for the logistic model, estimating unknown parameters _r_ and _C_(0).
+- Reproduces inference and information geometry results for the logistic model, estimating unknown parameters _r_ and _C_(0).
 
 _Logistic\_Infer\_r\_C0_highcurvature.jl_
 
-Reproduces inference and information geometry results for the logistic model, estimating unknown parameters _r_ and _C_(0) in the high curvature region.
+- Reproduces inference and information geometry results for the logistic model, estimating unknown parameters _r_ and _C_(0) in the high curvature region.
 
 _Logistic\_Infer\_r\_K.jl_
 
-Reproduces inference and information geometry results for the logistic model, estimating unknown parameters _r_ and _K_.
-
+- Reproduces inference and information geometry results for the logistic model, estimating unknown parameters _r_ and _K_.
 
 **The supporting functions and data are:**
 
@@ -170,19 +169,19 @@ Contains code for reproducing the inference and information geometry results for
 
 _SIR\_Infer\_beta\_gamma\_obsIonly.jl_
 
-Reproduces inference and information geometry results for the SIR model where only the infected population is observed, estimating unknown parameters β and γ.
+- Reproduces inference and information geometry results for the SIR model where only the infected population is observed, estimating unknown parameters β and γ.
 
 _SIR\_Infer\_beta\_gamma.jl_
 
-Reproduces inference and information geometry results for the SIR model where all three populations are observed, estimating unknown parameters β and γ.
+- Reproduces inference and information geometry results for the SIR model where all three populations are observed, estimating unknown parameters β and γ.
 
 _SIR\_Infer\_beta\_StDev\_obsIonly.jl_
 
-Reproduces inference and information geometry results for the SIR model where only the infected population is observed, estimating unknown parameter β and the standard deviation of the data.
+- Reproduces inference and information geometry results for the SIR model where only the infected population is observed, estimating unknown parameter β and the standard deviation of the data.
 
 _SIR\_Infer\_beta\_StDev.jl_
 
-Reproduces inference and information geometry results for the SIR model where all three populations are observed, estimating unknown parameter β and the standard deviation of the data.
+- Reproduces inference and information geometry results for the SIR model where all three populations are observed, estimating unknown parameter β and the standard deviation of the data.
 
 **The supporting functions and data are:**
 
