@@ -2,7 +2,7 @@
 
 Julia implementation of likelihood based inference and information geometry techniques, including geodesic curves and scalar curvature. This code is used to generate results by Sharp et al. in:
 
-Sharp JA, Browning AP, Burrage K, Simpson MJ. 2021 Parameter estimation and uncertainty quantification using information geometry. _arXxiv preprint_. (https://arxiv.org/abs/2111.12201).
+Sharp JA, Browning AP, Burrage K, Simpson MJ. 2021 Parameter estimation and uncertainty quantification using information geometry. _arXiv preprint_. (https://arxiv.org/abs/2111.12201).
 
 ## This repository contains the following code and folders: ##
 
