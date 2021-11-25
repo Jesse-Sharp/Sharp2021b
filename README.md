@@ -13,11 +13,11 @@ Contains code for reproducing the inference and information geometry results for
 
 _NormalModel.jl_
 
-- Code for reproducing the inference and information geometry results for the univariate normal distribution. The runtime for this code is less than one minute.  
+- Code for reproducing the inference and information geometry results for the univariate normal distribution.  
 
 _MvNormalModel.jl_
 
-- Code for reproducing the inference and information geometry results for the multivariate normal distribution. The runtime for this code is less than one minute.  
+- Code for reproducing the inference and information geometry results for the multivariate normal distribution. 
 
 The runtime for these scripts is less than one minute.  
 
