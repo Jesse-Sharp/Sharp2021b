@@ -4,8 +4,24 @@ Julia implementation of likelihood based inference and information geometry tech
 
 Sharp JA, Browning AP, Burrage K, Simpson MJ. 2021 Parameter estimation and uncertainty quantification using information geometry. _arXiv preprint_. (https://arxiv.org/abs/2111.12201).
 
+A rough estimate of the order of the run-time of user callable functions is provided as a guide. These estimates are obtained on a standard university issued desktop computer (Dell Optiplex 7050), assuming that the required Julia packages are already precompiled.  
 ## This repository contains the following code and folders: ##
 
+Contains code for reproducing the inference and information geometry results for the normal distributions, presented in Figures 1 and 2 of the Sharp et al. paper. Also includes supporting functions for producing optimisation, producing confidence regions, and generating information geometry results, that are used by all user callable functions in this repository. 
+
+**The user callable scripts include:**
+
+_NormalModel.jl_
+
+- Code for reproducing the inference and information geometry results for the univariate normal distribution. The runtime for this code is less than one minute.  
+
+_MvNormalModel.jl_
+
+- Code for reproducing the inference and information geometry results for the multivariate normal distribution. The runtime for this code is less than one minute.  
+
+The runtime for these scripts is less than one minute.  
+
+**The supporting functions and data are:**
 
 _ConfidenceRegions.jl_
 
@@ -23,19 +39,11 @@ _optimise.jl_
 
 - Contains the _optimise_ function for performing nonlinear bound constrained optimisation using the BOBYQA algorithm
 
-_NormalModel.jl_
-
-- Code for reproducing the inference and information geometry results for the univariate normal distribution. 
-
-_MvNormalModel.jl_
-
-- Code for reproducing the inference and information geometry results for the multivariate normal distribution
-
 #### Linear and exponential growth models ####
 
 Contains code for reproducing the inference and information geometry results for the linear and exponential growth models, presented in Figures 4 and 6 of the Sharp et al. paper. 
 
-**The user callable functions include:**
+**The user callable scripts include:**
 
 _Linear\_Infer\_a\_C0.jl_
 
@@ -61,6 +69,7 @@ _Exponential\_Infer\_a\_StDev.jl_
 
 - Reproduces inference and information geometry results for the exponential model, estimating unknown parameter _C_(0) and the standard deviation of the data.
 
+The runtime of each of these scripts is on the order of one minute.
 
 **The supporting functions and data are:**
 
@@ -113,7 +122,7 @@ _ExponentialSolAllParams.jl_
 
 Contains code for reproducing the inference and information geometry results for the logistic growth model, presented in Figures 3, 5, 7 and 8 of the Sharp et al. paper. 
 
-**The user callable functions include:**
+**The user callable scripts include:**
 
 _Logistic\_Infer\_r\_C0.jl_
 
@@ -126,6 +135,8 @@ _Logistic\_Infer\_r\_C0_highcurvature.jl_
 _Logistic\_Infer\_r\_K.jl_
 
 - Reproduces inference and information geometry results for the logistic model, estimating unknown parameters _r_ and _K_.
+
+The runtime of each of these scripts is on the order of one minute.
 
 **The supporting functions and data are:**
 
@@ -165,7 +176,7 @@ _Logistic_data.csv_
 #### SIR model ####
 Contains code for reproducing the inference and information geometry results for the susceptible, infected, recovered (SIR) model, presented in Figures 9 and 10 of the Sharp et al. paper. 
 
-**The user callable functions include:**
+**The user callable scripts include:**
 
 _SIR\_Infer\_beta\_gamma\_obsIonly.jl_
 
@@ -182,6 +193,8 @@ _SIR\_Infer\_beta\_StDev\_obsIonly.jl_
 _SIR\_Infer\_beta\_StDev.jl_
 
 - Reproduces inference and information geometry results for the SIR model where all three populations are observed, estimating unknown parameter β and the standard deviation of the data.
+
+The runtime of each of these scripts is on the order of one hour.
 
 **The supporting functions and data are:**
 
