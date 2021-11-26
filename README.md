@@ -194,7 +194,7 @@ _SIR\_Infer\_beta\_StDev.jl_
 
 - Reproduces inference and information geometry results for the SIR model where all three populations are observed, estimating unknown parameter β and the standard deviation of the data.
 
-The runtime of each of these scripts is on the order of one hour.
+The runtime of each of these scripts is on the order of a few hours.
 
 **The supporting functions and data are:**
 
