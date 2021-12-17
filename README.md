@@ -19,6 +19,22 @@ _MvNormalModel.jl_
 
 - Code for reproducing the inference and information geometry results for the multivariate normal distribution. 
 
+_NormalModel_HT.jl_
+
+- Code for reproducing the individual hypothesis test results for the univariate normal distribution.  
+
+_MvNormalModel_HT.jl_
+
+- Code for reproducing the individual hypothesis test results for the multivariate normal distribution. 
+
+_NormalModel_HypothesisTests_Loop.jl_
+
+- Code for reproducing the ensemble hypothesis test results for the univariate normal distribution.  
+
+_MvNormalModel_HypothesisTests_Loop.jl_
+
+- Code for reproducing the ensemble hypothesis test results for the multivariate normal distribution. 
+
 The runtime for these scripts is less than one minute.  
 
 **The supporting functions and data are:**
@@ -136,6 +152,10 @@ _Logistic\_Infer\_r\_K.jl_
 
 - Reproduces inference and information geometry results for the logistic model, estimating unknown parameters _r_ and _K_.
 
+_Logistic\_Infer\_r\_C0_highcurvature_HT.jl_
+
+- Reproduces hypothesis test results for the logistic model, estimating unknown parameters _r_ and _C_(0) in the high curvature region.
+
 The runtime of each of these scripts is on the order of one minute.
 
 **The supporting functions and data are:**
@@ -143,6 +163,10 @@ The runtime of each of these scripts is on the order of one minute.
 _DataGenerateLogistic.jl_
 
 - Generates synthetic data for the logistic model.
+
+_DataGenerateLogistic_Hypothesistesting.jl_
+
+- Generates synthetic data for the logistic model, but does not set the random seed; so that it can be called in a loop to generate synthetic datasets.
 
 _FIM\_Obs\_Process.jl_
 
