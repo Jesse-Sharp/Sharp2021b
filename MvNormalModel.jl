@@ -7,7 +7,6 @@
 using Random
 using Distributions
 using Plots
-using LaTeXStrings
 using StatsBase
 using NLopt
 using CSV
