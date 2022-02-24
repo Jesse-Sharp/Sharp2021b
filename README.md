@@ -297,13 +297,13 @@ _Ntime,Ndata = DataGenerateSIR([β,γ,S₀,I₀,R₀],TimePoints,NperT,σ) #gene
 
 with
 
-_using DelimitedFiles
+_using DelimitedFiles_
 
-Data = readdlm("SIRData.csv",',',Float64)
+_Data = readdlm("SIRData.csv",',',Float64)_
 
-Ntime = vec(Data[:,1])
+_Ntime = vec(Data[:,1])_
 
-Ndata = Data[:,2:4]_
+_Ndata = Data[:,2:4]_
 
 
 It is also necessary to ensure that the values for _TimePoints_, and _NperT_ are consistent with the loaded data. For example, when loading the data from LogisticData_earlymid.csv, ensure that _TimePoints = [1000/365.25,2500/365.25]_, and _NperT = [15,15]_, and when loading LogisticData_earlymidlate.csv, _TimePoints = [1000/365.25,2500/365.25,4000/365.25]_, and _NperT = [10,10,10]_. 
