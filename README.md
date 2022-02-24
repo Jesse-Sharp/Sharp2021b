@@ -290,13 +290,21 @@ Revels J, Lubin M, Papamarkou T. 2016 Forward-mode automatic differentiation in 
 
 Results in the manuscript are produced using Julia v1.5.4. Data is generated using pseudo-random numbers; the stream of generated numbers may differ following a Julia version change (https://docs.julialang.org/en/v1.5/stdlib/Random/), regardless of the set random seed. For reproducibility we provide the origianally generated data from which the results are produced, however this is only necessary for identical reproduction of the results in the manuscript, and similar results can be generated without loading the original data. To run the scripts using the original data, replace the DataGenerate...() line with code that loads the appropriate data, for example in the script SIR_Infer_beta_gamma.jl:  
 
+
 replace
+
 _Ntime,Ndata = DataGenerateSIR([β,γ,S₀,I₀,R₀],TimePoints,NperT,σ) #generate synthetic data_
+
 with
+
 _using DelimitedFiles
+
 Data = readdlm("SIRData.csv",',',Float64)
+
 Ntime = vec(Data[:,1])
+
 Ndata = Data[:,2:4]_
+
 
 It is also necessary to ensure that the values for _TimePoints_, and _NperT_ are consistent with the loaded data. For example, when loading the data from LogisticData_earlymid.csv, ensure that _TimePoints = [1000/365.25,2500/365.25]_, and _NperT = [15,15]_, and when loading LogisticData_earlymidlate.csv, _TimePoints = [1000/365.25,2500/365.25,4000/365.25]_, and _NperT = [10,10,10]_. 
  
